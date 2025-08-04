@@ -4,8 +4,6 @@
 Currently optimized for **chest CT** reports.
 
 ---
-![Reptor UI](examples/Reptor.png)
----
 
 ## ✨ Features
 
@@ -64,4 +62,5 @@ If you're working with the code:
 ## 📄 License
 
 *Proprietary / internal use only*
+
 
