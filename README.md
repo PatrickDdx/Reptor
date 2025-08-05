@@ -7,7 +7,7 @@ Currently optimized for **chest CT** report generation.
 
 ## 📸 Interface
 
-- ![User Interface](assets/examples/ui_reptor.png)  
+- ![User Interface](examples/ui_reptor.png)  
 
 ---
 
@@ -26,10 +26,10 @@ Currently optimized for **chest CT** report generation.
 ---
 ## 📸 Output Examples
 
-- ![Example Report - GPT-4o Mini](assets/examples/ex1_gpt.png)  
-- ![Example Report - Mistral](assets/examples/ex1_mistral.png)  
-- ![Another Report - GPT-4o Mini](assets/examples/ex2_gpt.png)  
-- ![Another Report - Mistral](assets/examples/ex2_mistral.png)
+- ![Example Report - GPT-4o Mini](examples/ex1_gpt.png)  
+- ![Example Report - Mistral](examples/ex1_mistral.png)  
+- ![Another Report - GPT-4o Mini](examples/ex2_gpt.png)  
+- ![Another Report - Mistral](examples/ex2_mistral.png)
 ---
 
 ## 👩‍⚕️ Intended Users
@@ -79,3 +79,4 @@ For developers or contributors:
 ## 📄 License
 
 **Proprietary – for internal or restricted use only**
+
