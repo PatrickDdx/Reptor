@@ -1,66 +1,81 @@
-# 🦖 Reptor
+# 🦖 Reptor: AI-Powered Radiology Report Assistant
 
-**Reptor** is a desktop application that uses large language models (LLMs) to generate structured radiology reports from free-text notes.  
-Currently optimized for **chest CT** reports.
-
----
-
-## ✨ Features
-
-- 🧠 **LLM-powered**: Automatically creates full radiology reports from notes using GPT-4 or Mistral.
-- ⚙️ **Offline or online**:  
-  - Uses **OpenAI GPT** by default.  
-  - Can optionally run fully **offline** with **Mistral via Ollama** (if installed).
-- 🖥️ **Desktop app**: Built with PyQt6 — no command line required.
+**Reptor** is a desktop application designed to assist radiologists by transforming free-text clinical notes into structured radiology reports using large language models (LLMs).  
+Currently optimized for **chest CT** report generation.
 
 ---
 
-## 🩻 Target Audience
+## 📸 Interface
 
-Designed for **radiologists** and medical professionals who want to quickly transform notes or findings into structured, high-quality reports.
+- ![User Interface](assets/examples/ui_reptor.png)  
 
 ---
 
-## 🚀 Usage
+## ✨ Key Features
 
-1. Launch the app (`Reptor.exe`).
-2. Paste or write your notes in the input box.
+- 🧠 **AI-Generated Reports**  
+  Automatically generates comprehensive radiology reports using GPT-4 or Mistral.
+
+- 🔄 **Flexible Operation Modes**  
+  - Online mode via **OpenAI GPT models**  
+  - Fully **offline capability** with **Mistral via Ollama**, if installed locally
+
+- 🖥️ **User-Friendly Desktop Interface**  
+  Built with **PyQt6** — no command line or technical setup required.
+
+---
+## 📸 Output Examples
+
+- ![Example Report - GPT-4o Mini](assets/examples/ex1_gpt.png)  
+- ![Example Report - Mistral](assets/examples/ex1_mistral.png)  
+- ![Another Report - GPT-4o Mini](assets/examples/ex2_gpt.png)  
+- ![Another Report - Mistral](assets/examples/ex2_mistral.png)
+---
+
+## 👩‍⚕️ Intended Users
+
+Reptor is designed for **radiologists** and medical professionals seeking to streamline their workflow by converting shorthand notes or dictations into detailed, structured reports.
+
+---
+
+## 🚀 How to Use
+
+1. Launch the application (`Reptor.exe`).
+2. Enter or paste clinical notes into the input field.
 3. Click **"Befund Erstellen"**.
-4. Watch as the report is generated live, line by line.
+4. The report will be generated live, line by line.
 
 ---
 
-## 🧠 Model Support
+## 🧠 Model Integration
 
-| Model     | Backend | Streaming | Requires Internet |
-|-----------|---------|-----------|--------------------|
-| GPT (e.g. `gpt-4`) | OpenAI  | ✅ Yes     | ✅ Yes             |
-| Mistral   | Ollama  | ✅ Yes     | ❌ No              |
+| Model      | Backend | Streaming Support | Internet Required |
+|------------|---------|-------------------|-------------------|
+| GPT (e.g., GPT-4) | OpenAI   | ✅ Yes            | ✅ Yes            |
+| Mistral    | Ollama  | ✅ Yes            | ❌ No             |
 
-> ⚠️ Note: For offline mode, Ollama and Mistral must be pre-installed.
-
----
-
-## 🛠️ Installation
-
-No installation needed. Just run the bundled `.exe` file.
-
-> ✅ No setup, no Python, no terminal.
+> ⚠️ For offline usage, ensure **Mistral** and **Ollama** are installed.
 
 ---
 
-## 🧪 Development Info
+## 🛠 Installation
 
-If you're working with the code:
+No installation is required. Simply run the included `.exe` file.
+
+> ✅ No Python environment or terminal access needed.
+
+---
+
+## 🧪 Development Notes
+
+For developers or contributors:
 
 - Built with `PyQt6`
-- Modular agent system for easy extension
-- Streaming is implemented for final output using a worker thread
+- Modular agent architecture for extensibility
+- Streaming output implemented via worker threads
 
 ---
 
 ## 📄 License
 
-*Proprietary / internal use only*
-
-
+**Proprietary – for internal or restricted use only**
